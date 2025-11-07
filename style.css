@@ -4,5 +4,11 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 body{
-    background-color: aquamarine;
+    background-color: rgb(196, 236, 16);
+}
+header h1{
+    color: rgb(0, 16, 108);
+}
+p{
+    background-color: brown;
 }
