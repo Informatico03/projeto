@@ -1,4 +1,56 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #18181b;
+}
+
+.contador{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    background-color: #27272a;
+    padding: 40px;
+    border-radius: 15px;
+}
+
+#valor{
+    font-size: 60px;
+    color: white;
+}
+
+button{
+    width: 70px;
+    height: 70px;
+    font-size: 30px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer; /* Mão */
+    transition: 0.2s;
+}
+
+#adicionar{
+    background-color: #22c55e;
+    color: white;
+    float: left;
+}
+
+#subtrair{
+    background-color: #ef4444;
+    color: white;
+    float: left;
+}
+
+button:hover{
+    transform: scale(1.1);
+    filter: drop-shadow(0.25rem 0 0.75rem #ef9035);
 }
