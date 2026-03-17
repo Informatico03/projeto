@@ -69,6 +69,5 @@ document.addEventListener("keydown", (e) => {
     else if (tecla.toLowerCase() === "c") {
         expressao = "";
     }
-
     atualizarDisplay();
 });
