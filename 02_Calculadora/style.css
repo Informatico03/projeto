@@ -1,6 +1,39 @@
-*{
-    padding: 0;
+#calculadora{
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    display: grid;
+    place-items: center;
 }
 
+#keys {
+    display: grid;
+    grid-template-columns: repeat(4, 60px);
+    gap: 4px;
+    background: #2c2c2c;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#display{
+    grid-column: span 4;
+    background: green;
+    text-align: right;
+    padding: 5px;
+    font-size: 2rem;
+}
+
+button {
+    height: 60px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    background: #444;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover{
+    background: gray;
+    border-radius: 15px;
+}
