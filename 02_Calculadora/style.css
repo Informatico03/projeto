@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(45deg, #1c1c1c, #e94b4b);
+}
 
 #calculadora{
     margin: 0;
@@ -17,7 +23,7 @@
 
 #display{
     grid-column: span 4;
-    background: green;
+    background: rgb(64, 68, 64);
     text-align: right;
     padding: 5px;
     font-size: 2rem;
